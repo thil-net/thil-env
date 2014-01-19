@@ -1,0 +1,4 @@
+#!/usr/bin/php
+
+echo json_encode( scandir("_thil/files") );
+
