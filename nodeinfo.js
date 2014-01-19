@@ -12,7 +12,7 @@ console.log({
     "groups": process.getgroups(), 
     "version": process.version, 
     "versions": process.versions, 
-    "config": process.config, 
+    "config": JSON.stringify(process.config), 
     "arch": process.arch, 
     "platform": process.platform
   }, 
@@ -27,7 +27,7 @@ console.log({
     "loadavg": os.loadavg(), 
     "totalmem": os.totalmem(), 
     "freemem": os.freemem(), 
-    "cpus": os.cpus(), 
+    "cpus": JSON.stringify(os.cpus()), 
     "networkInterfaces": JSON.stringify(os.networkInterfaces()), 
     "EOL": os.EOL
   }
