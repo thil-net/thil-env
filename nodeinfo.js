@@ -28,7 +28,7 @@ console.log({
     "totalmem": os.totalmem(), 
     "freemem": os.freemem(), 
     "cpus": os.cpus(), 
-    "networkInterfaces": os.networkInterfaces(), 
+    "networkInterfaces": JSON.stringify(os.networkInterfaces()), 
     "EOL": os.EOL
   }
 });
