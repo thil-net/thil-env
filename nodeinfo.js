@@ -9,7 +9,7 @@ console.log({
     "env": process.env, 
     "gid": process.getgid(), 
     "uid": process.getuid(), 
-    "groups": process.getGroups(), 
+    "groups": process.getgroups(), 
     "version": process.version, 
     "versions": process.versions, 
     "config": process.config, 
