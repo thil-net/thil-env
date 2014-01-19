@@ -235,4 +235,4 @@ for i in optional_modules_list:
         globals()[i] = module
     except: pass
     
-pyinfo()
+print pyinfo()
