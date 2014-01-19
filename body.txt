@@ -1,0 +1,5 @@
+#!/usr/bin/php
+<?php
+
+echo file_get_contents("_thil/body.txt");
+
